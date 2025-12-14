@@ -36,6 +36,9 @@ const Navbar = () => {
           <li className='py-1'>CONTACT</li>
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
         </NavLink>
+        <a href="https://cura-admin.onrender.com" target="_blank" rel="noopener noreferrer" className='ml-3'>
+          <li className='py-1 px-3 border border-black/30 text-black text-xs rounded-full hover:border-black hover:bg-black hover:text-white transition-all duration-300'>ADMIN PANEL</li>
+        </a>
       </ul>
 
       <div className='flex items-center gap-4 '>
